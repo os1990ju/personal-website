@@ -23,3 +23,8 @@ nav .menu__list{
     flex-shrink: 2;
 
 }
+.about{
+    display: flex;
+    align-items: center;
+    background-color: #EAF2FD;
+}
