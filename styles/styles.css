@@ -1,0 +1,77 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --font-normal: 14px;
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    background-color:#EAF2FD;
+    color: #464646;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+.menu{
+    height: auto;
+    padding: 32px 0px;
+    margin-bottom: 32px;
+}
+.menu__list__item {
+    text-decoration: none;
+    font-weight: 100;
+}
+	
+.menu__list__item a{
+	font-weight: 300;
+	width: 100%;
+	height: 100%;
+    color: #464646;
+}
+.menu__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+.menu__header img{
+    height: 24px;
+    width: 24px;       
+}
+.title__bio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    padding-bottom: 24px;
+    color: #464646;
+}
+.title__subsection{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+.title__network__item a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding-bottom: 24px;
+}
