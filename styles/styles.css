@@ -5,6 +5,7 @@
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
    --cor-de-font: #464646;
+   --cor-de-box: #ffffff;
 }
 
 body {
@@ -71,6 +72,7 @@ body {
     padding-top: 61px;
     padding-bottom: 61px;
 }
+
 .title__network__item a{
     font-family: 'Raleway';
     font-style: normal;
@@ -80,10 +82,7 @@ body {
     color: var(--cor-de-font);
     padding-bottom: 24px;
 }
-.about{
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
+
 .about__title{
     font-family: 'Raleway';
 font-style: normal;
@@ -103,4 +102,58 @@ padding: 16px 0px;
 /* Preto/100% */
 
 color: var(--cor-de-font)
+}
+.skills__box{
+    box-shadow: 2px 2px 2px #CCC; 
+    width: 110px;
+    height: 105px;
+    background-color: var(--cor-de-box);
+    border: none;
+    padding: 16px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.skills__name{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+.skills__title{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+}
+.hobbies__box{
+    box-shadow: 2px 2px 2px #CCC; 
+    width: 110px;
+    height: 105px;
+    background-color: var(--cor-de-box);
+    border: none;
+    padding: 16px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.hobbies__name{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+.hobbies__title{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
 }
