@@ -92,6 +92,11 @@ line-height: 38px;
 color: var(--cor-de-font);
 
 }
+.title__profile{
+    width: 300px;
+    border: none;
+    border-radius: 50%;
+}
 .about__paragraph{
     font-family: 'Raleway';
 font-style: normal;
