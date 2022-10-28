@@ -1,4 +1,8 @@
-.experience__section__title{
+.experience {
+    margin-top: 35px;
+}
+
+.experience__section__title {
     font-family: Raleway;
     font-size: 32px;
     font-weight: 700;
@@ -6,28 +10,32 @@
     letter-spacing: 0em;
     text-align: center;
 }
-.experience__title{
+
+.experience__title {
     font-family: Raleway;
-font-size: 22px;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.experience__text{
+
+.experience__text {
     font-family: Raleway;
-font-size: 16px;
-font-weight: 500;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.experience__img{
+
+.experience__img {
     width: 49%;
 }
-.experiencie__box{
+
+.experiencie__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,29 +44,32 @@ text-align: left;
     padding-top: 1.6rem;
 }
 
-.botao{
+.botao {
     box-sizing: border-box;
     width: 100px;
     height: 30px;
     padding: .5rem .9rem;
     border-radius: 5px;
 }
-.experiencia__botao--repo{
-   background-color: rgb(62, 181, 236);
-  transition: 0.9s;
-   border: 1px solid transparent;
-   
+
+.experiencia__botao--repo {
+    background-color: rgb(62, 181, 236);
+    transition: 0.9s;
+    border: 1px solid transparent;
+
 }
-.experience__botao--demo{
+
+.experience__botao--demo {
     border: 1px solid rgb(62, 181, 236);
-transition: 0.9s;
+    transition: 0.9s;
 }
-.experiencia__botao--repo:hover{
+
+.experiencia__botao--repo:hover {
     border: 1px solid rgb(62, 181, 236);
     background-color: white;
- }
- .experience__botao--demo:hover{
+}
+
+.experience__botao--demo:hover {
     background-color: rgb(62, 181, 236);
     border: 1px solid transparent;
- }
- 
+}
