@@ -77,6 +77,9 @@ nav .menu__list{
         flex-direction: column;
         justify-content: center;
     }
+    .menu__header img{
+        margin-right: 10px;
+    }
     .title__div{
         display: flex;
         flex-direction: column;
@@ -84,14 +87,16 @@ nav .menu__list{
     .title__profile{
         width: 200px;
         align-self: flex-start;
+        margin: 0px 0px 20px 10px;
     }
     .title__bio{
-        font-size: 22px;
+        font-size: 29px;
         font-weight: bold;
-        line-height: 23px;
-        text-align: justify;
+        line-height: 30px;   
     }
-    .title__subsection{
+    .title__container, .about__container{
+        margin-left: 10px;
+        margin-right: 10px;
         text-align: justify;
     }
     .academic__courses{
@@ -107,6 +112,8 @@ nav .menu__list{
     .formcontato__subtext{
         margin-bottom: 6px;
     }
-   
+    .container{
+        width: 100%;
+    }
     
 }
