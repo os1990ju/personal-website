@@ -67,3 +67,46 @@ nav .menu__list{
   gap: 20px;
 
 }
+@media screen and (max-width: 600px) {
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .menu__list{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title__div{
+        display: flex;
+        flex-direction: column;
+    }
+    .title__profile{
+        width: 200px;
+        align-self: flex-start;
+    }
+    .title__bio{
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 23px;
+        text-align: justify;
+    }
+    .title__subsection{
+        text-align: justify;
+    }
+    .academic__courses{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience__img{
+        width: 90%;
+    }
+    .formcontato--esquerda:nth-child(1){
+        display: none;
+    }
+    .formcontato__subtext{
+        margin-bottom: 6px;
+    }
+   
+    
+}
